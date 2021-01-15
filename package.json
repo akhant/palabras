@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "web": "webpack serve",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
@@ -19,10 +20,14 @@
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "webpack": "^5.15.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
@@ -31,12 +36,15 @@
     "@types/react-test-renderer": "^16.9.2",
     "@types/redux": "^3.6.0",
     "babel-jest": "^25.1.0",
+    "babel-loader": "^8.2.2",
     "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "jest": {
     "preset": "react-native",
