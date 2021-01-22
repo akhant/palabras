@@ -1,0 +1,1042 @@
+{
+  "data": [
+    {
+      "groupId": "1",
+      "groupName": "люди",
+      "groupNameTranslation": "gente",
+      "words": [
+        {"groupId": "1", "wordId": "11", "ru": "люди", "es": "gente"},
+        {"groupId": "1", "wordId": "12", "ru": "человек", "es": "persona"},
+        {"groupId": "1", "wordId": "13", "ru": "мужчина", "es": "hombre"},
+        {"groupId": "1", "wordId": "14", "ru": "муж", "es": "marido"},
+        {"groupId": "1", "wordId": "15", "ru": "женщина, жена", "es": "mujer"},
+        {"groupId": "1", "wordId": "16", "ru": "ребенок", "es": "niño"},
+        {
+          "groupId": "1",
+          "wordId": "17",
+          "ru": "мальчик/девочка",
+          "es": "muchacho/a"
+        },
+        {"groupId": "1", "wordId": "18", "ru": "друг", "es": "amigo"},
+        {"groupId": "1", "wordId": "19", "ru": "гость", "es": "invitado"}
+      ]
+    },
+    {
+      "groupId": "2",
+      "groupName": "семья",
+      "groupNameTranslation": "familia",
+      "words": [
+        {"groupId": "2", "wordId": "21", "ru": "семья", "es": "familia"},
+        {"groupId": "2", "wordId": "22", "ru": "родители", "es": "padres"},
+        {"groupId": "2", "wordId": "23", "ru": "отец", "es": "padre"},
+        {"groupId": "2", "wordId": "24", "ru": "мать", "es": "madre"},
+        {"groupId": "2", "wordId": "25", "ru": "сын/дочь", "es": "hijo/a"},
+        {"groupId": "2", "wordId": "26", "ru": "дед/бабушка", "es": "abuelo/a"},
+        {
+          "groupId": "2",
+          "wordId": "27",
+          "ru": "тесть (свекор)/теща (свекровь)",
+          "es": "suegro/a"
+        },
+        {"groupId": "2", "wordId": "28", "ru": "дядя/тетя", "es": "tío/a"},
+        {
+          "groupId": "2",
+          "wordId": "29",
+          "ru": "брат/сестра",
+          "es": "hermano/a"
+        },
+        {
+          "groupId": "2",
+          "wordId": "210",
+          "ru": "двоюродный брат/сестра",
+          "es": "primo/a"
+        }
+      ]
+    },
+    {
+      "groupId": "3",
+      "groupName": "работа",
+      "groupNameTranslation": "trabajo",
+      "words": [
+        {"groupId": "3", "wordId": "31", "ru": "работа", "es": "trabajo"},
+        {"groupId": "3", "wordId": "32", "ru": "учитель", "es": "maestro"},
+        {"groupId": "3", "wordId": "33", "ru": "водитель", "es": "conductor"},
+        {"groupId": "3", "wordId": "34", "ru": "рабочий", "es": "obrero"},
+        {"groupId": "3", "wordId": "35", "ru": "инженер", "es": "ingeniero"},
+        {"groupId": "3", "wordId": "36", "ru": "врач", "es": "doctor"},
+        {"groupId": "3", "wordId": "37", "ru": "медсестра", "es": "enfermera"},
+        {"groupId": "3", "wordId": "38", "ru": "продавец", "es": "vendedor"},
+        {"groupId": "3", "wordId": "39", "ru": "бухгалтер", "es": "contador"},
+        {"groupId": "3", "wordId": "310", "ru": "художник", "es": "pintor"},
+        {"groupId": "3", "wordId": "311", "ru": "студент", "es": "estudiante"}
+      ]
+    },
+    {
+      "groupId": "4",
+      "groupName": "страна",
+      "groupNameTranslation": "país",
+      "words": [
+        {"groupId": "4", "wordId": "41", "ru": "страна", "es": "país"},
+        {"groupId": "4", "wordId": "42", "ru": "Россия", "es": "Rusia"},
+        {"groupId": "4", "wordId": "43", "ru": "Испания", "es": "España"}
+      ]
+    },
+    {
+      "groupId": "5",
+      "groupName": "животное",
+      "groupNameTranslation": "animal",
+      "words": [
+        {"groupId": "5", "wordId": "51", "ru": "животное", "es": "animal"},
+        {"groupId": "5", "wordId": "52", "ru": "кошка", "es": "gato"},
+        {"groupId": "5", "wordId": "53", "ru": "собака", "es": "perro"},
+        {"groupId": "5", "wordId": "54", "ru": "птица", "es": "pájaro"}
+      ]
+    },
+    {
+      "groupId": "6",
+      "groupName": "город",
+      "groupNameTranslation": "ciudad",
+      "words": [
+        {"groupId": "6", "wordId": "61", "ru": "город", "es": "ciudad"},
+        {"groupId": "6", "wordId": "62", "ru": "школа", "es": "escuela"},
+        {"groupId": "6", "wordId": "63", "ru": "театр", "es": "teatro"},
+        {"groupId": "6", "wordId": "64", "ru": "улица", "es": "calle"},
+        {"groupId": "6", "wordId": "65", "ru": "площадь", "es": "plaza"},
+        {"groupId": "6", "wordId": "66", "ru": "место", "es": "lugar"},
+        {"groupId": "6", "wordId": "67", "ru": "дом", "es": "casa"},
+        {"groupId": "6", "wordId": "68", "ru": "церковь", "es": "iglesia"},
+        {"groupId": "6", "wordId": "69", "ru": "река", "es": "río"},
+        {"groupId": "6", "wordId": "610", "ru": "кафе", "es": "café"},
+        {"groupId": "6", "wordId": "611", "ru": "гостиница", "es": "hotel"},
+        {"groupId": "6", "wordId": "612", "ru": "сад", "es": "jardín"},
+        {"groupId": "6", "wordId": "613", "ru": "парк", "es": "parque"},
+        {"groupId": "6", "wordId": "614", "ru": "банк", "es": "banco"},
+        {"groupId": "6", "wordId": "615", "ru": "остановка", "es": "parada"},
+        {"groupId": "6", "wordId": "616", "ru": "кинотеатр", "es": "cine"},
+        {"groupId": "6", "wordId": "617", "ru": "мост", "es": "puente"},
+        {
+          "groupId": "6",
+          "wordId": "618",
+          "ru": "перекрёсток",
+          "es": "intersección"
+        },
+        {"groupId": "6", "wordId": "619", "ru": "лес", "es": "bosque"},
+        {"groupId": "6", "wordId": "620", "ru": "больница", "es": "hospital"},
+        {"groupId": "6", "wordId": "621", "ru": "рынок", "es": "mercado"},
+        {"groupId": "6", "wordId": "622", "ru": "полиция", "es": "policía"},
+        {
+          "groupId": "6",
+          "wordId": "623",
+          "ru": "почта",
+          "es": "oficina de correos"
+        },
+        {
+          "groupId": "6",
+          "wordId": "624",
+          "ru": "станция, вокзал",
+          "es": "estación"
+        },
+        {"groupId": "6", "wordId": "625", "ru": "центр", "es": "centro"},
+        {"groupId": "6", "wordId": "626", "ru": "магазин", "es": "tienda"},
+        {"groupId": "6", "wordId": "627", "ru": "гора", "es": "montaña"}
+      ]
+    },
+    {
+      "groupId": "7",
+      "groupName": "квартира",
+      "groupNameTranslation": "apartamento",
+      "words": [
+        {"groupId": "7", "wordId": "71", "ru": "квартира", "es": "apartamento"},
+        {"groupId": "7", "wordId": "72", "ru": "кухня", "es": "cocina"},
+        {"groupId": "7", "wordId": "73", "ru": "балкон", "es": "balcón"},
+        {
+          "groupId": "7",
+          "wordId": "74",
+          "ru": "ванная",
+          "es": "cuarto de baño"
+        },
+        {"groupId": "7", "wordId": "75", "ru": "душ", "es": "ducha"},
+        {"groupId": "7", "wordId": "76", "ru": "туалет", "es": "inodoro"},
+        {"groupId": "7", "wordId": "77", "ru": "пол", "es": "suelo"},
+        {"groupId": "7", "wordId": "78", "ru": "потолок", "es": "techo"},
+        {"groupId": "7", "wordId": "79", "ru": "этаж", "es": "piso"},
+        {"groupId": "7", "wordId": "710", "ru": "коридор", "es": "pasillo"},
+        {"groupId": "7", "wordId": "711", "ru": "спальня", "es": "dormitorio"},
+        {"groupId": "7", "wordId": "712", "ru": "зал", "es": "sala de estar"},
+        {"groupId": "7", "wordId": "713", "ru": "дверь", "es": "puerta"},
+        {"groupId": "7", "wordId": "714", "ru": "окно", "es": "ventana"},
+        {"groupId": "7", "wordId": "715", "ru": "ключ", "es": "llave"},
+        {"groupId": "7", "wordId": "716", "ru": "кровать", "es": "cama"},
+        {"groupId": "7", "wordId": "717", "ru": "подушка", "es": "almohada"},
+        {"groupId": "7", "wordId": "718", "ru": "стол", "es": "mesa"},
+        {"groupId": "7", "wordId": "719", "ru": "стул", "es": "silla"},
+        {"groupId": "7", "wordId": "720", "ru": "кресло", "es": "sillón"},
+        {"groupId": "7", "wordId": "721", "ru": "холодильник", "es": "nevera"},
+        {"groupId": "7", "wordId": "722", "ru": "диван", "es": "sofá"},
+        {"groupId": "7", "wordId": "723", "ru": "зеркало", "es": "espejo"}
+      ]
+    },
+    {
+      "groupId": "8",
+      "groupName": "еда",
+      "groupNameTranslation": "comida",
+      "words": [
+        {"groupId": "8", "wordId": "81", "ru": "еда", "es": "comida"},
+        {"groupId": "8", "wordId": "82", "ru": "хлеб", "es": "pan"},
+        {"groupId": "8", "wordId": "83", "ru": "масло", "es": "mantequilla"},
+        {"groupId": "8", "wordId": "84", "ru": "сыр", "es": "queso"},
+        {"groupId": "8", "wordId": "85", "ru": "колбаса", "es": "salchichón"},
+        {
+          "groupId": "8",
+          "wordId": "86",
+          "ru": "растительное масло",
+          "es": "aceite"
+        },
+        {
+          "groupId": "8",
+          "wordId": "87",
+          "ru": "горький перец",
+          "es": "pimienta"
+        },
+        {"groupId": "8", "wordId": "88", "ru": "соль", "es": "sal"},
+        {"groupId": "8", "wordId": "89", "ru": "ягода", "es": "baya"},
+        {"groupId": "8", "wordId": "810", "ru": "мёд", "es": "miel"},
+        {"groupId": "8", "wordId": "811", "ru": "варенье", "es": "mermelada"},
+        {"groupId": "8", "wordId": "812", "ru": "гриб", "es": "seta"},
+        {
+          "groupId": "8",
+          "wordId": "813",
+          "ru": "лук (репчатый)",
+          "es": "cebolla"
+        },
+        {"groupId": "8", "wordId": "814", "ru": "банан", "es": "banana"},
+        {"groupId": "8", "wordId": "815", "ru": "морковь", "es": "zanahoria"},
+        {"groupId": "8", "wordId": "816", "ru": "груша", "es": "pera"},
+        {"groupId": "8", "wordId": "817", "ru": "свекла", "es": "remolacha"},
+        {"groupId": "8", "wordId": "818", "ru": "фрукты", "es": "fruta"},
+        {"groupId": "8", "wordId": "819", "ru": "дыня", "es": "melón"},
+        {"groupId": "8", "wordId": "820", "ru": "арбуз", "es": "sandía"},
+        {
+          "groupId": "8",
+          "wordId": "821",
+          "ru": "пирожное, пирожок",
+          "es": "pastel"
+        },
+        {"groupId": "8", "wordId": "822", "ru": "торт", "es": "tarta"},
+        {"groupId": "8", "wordId": "823", "ru": "шоколад", "es": "chocolate"},
+        {"groupId": "8", "wordId": "824", "ru": "мясо", "es": "carne"},
+        {"groupId": "8", "wordId": "825", "ru": "картофель", "es": "patatas"},
+        {"groupId": "8", "wordId": "826", "ru": "салат", "es": "ensalada"},
+        {"groupId": "8", "wordId": "827", "ru": "помидор", "es": "tomate"},
+        {"groupId": "8", "wordId": "828", "ru": "огурец", "es": "pepino"},
+        {"groupId": "8", "wordId": "829", "ru": "капуста", "es": "col"},
+        {"groupId": "8", "wordId": "830", "ru": "каша", "es": "gachas"},
+        {"groupId": "8", "wordId": "831", "ru": "суп", "es": "sopa"},
+        {"groupId": "8", "wordId": "832", "ru": "бутерброд", "es": "bocadillo"},
+        {"groupId": "8", "wordId": "833", "ru": "газировка", "es": "soda"},
+        {"groupId": "8", "wordId": "834", "ru": "вода", "es": "agua"},
+        {"groupId": "8", "wordId": "835", "ru": "кофе", "es": "café"},
+        {"groupId": "8", "wordId": "836", "ru": "чай", "es": "té"},
+        {"groupId": "8", "wordId": "837", "ru": "молоко", "es": "leche"},
+        {"groupId": "8", "wordId": "838", "ru": "сок", "es": "jugo"},
+        {"groupId": "8", "wordId": "839", "ru": "яблоко", "es": "manzana"},
+        {"groupId": "8", "wordId": "840", "ru": "виноград", "es": "uvas"},
+        {"groupId": "8", "wordId": "841", "ru": "апельсин", "es": "naranja"},
+        {"groupId": "8", "wordId": "842", "ru": "ананас", "es": "piña"},
+        {"groupId": "8", "wordId": "843", "ru": "абрикос", "es": "albaricoque"},
+        {"groupId": "8", "wordId": "844", "ru": "сахар", "es": "azúcar"},
+        {"groupId": "8", "wordId": "845", "ru": "рис", "es": "arroz"},
+        {"groupId": "8", "wordId": "846", "ru": "лапша", "es": "fideos"},
+        {"groupId": "8", "wordId": "847", "ru": "говядина", "es": "res"},
+        {"groupId": "8", "wordId": "848", "ru": "свинина", "es": "cerdo"},
+        {"groupId": "8", "wordId": "849", "ru": "курица", "es": "pollo"},
+        {"groupId": "8", "wordId": "850", "ru": "котлета", "es": "chuleta"},
+        {"groupId": "8", "wordId": "851", "ru": "лимон", "es": "limón"},
+        {"groupId": "8", "wordId": "852", "ru": "горох", "es": "guisante"},
+        {"groupId": "8", "wordId": "853", "ru": "булочка", "es": "bollo"},
+        {"groupId": "8", "wordId": "854", "ru": "рыба", "es": "pescado"},
+        {"groupId": "8", "wordId": "855", "ru": "конфета", "es": "caramelo"},
+        {"groupId": "8", "wordId": "856", "ru": "мороженое", "es": "helado"},
+        {"groupId": "8", "wordId": "857", "ru": "орех", "es": "nuez"},
+        {"groupId": "8", "wordId": "858", "ru": "яйцо", "es": "huevo"},
+        {"groupId": "8", "wordId": "859", "ru": "персик", "es": "melocotón"},
+        {"groupId": "8", "wordId": "860", "ru": "чашка", "es": "taza"},
+        {"groupId": "8", "wordId": "861", "ru": "стакан", "es": "vaso"},
+        {"groupId": "8", "wordId": "862", "ru": "тарелка", "es": "plato"},
+        {"groupId": "8", "wordId": "863", "ru": "ложка", "es": "cuchara"},
+        {"groupId": "8", "wordId": "864", "ru": "вилка", "es": "tenedor"},
+        {"groupId": "8", "wordId": "865", "ru": "нож", "es": "cuchillo"},
+        {"groupId": "8", "wordId": "866", "ru": "блюдце", "es": "platillo"},
+        {"groupId": "8", "wordId": "867", "ru": "бутылка", "es": "botella"},
+        {"groupId": "8", "wordId": "868", "ru": "салфетка", "es": "servilleta"},
+        {"groupId": "8", "wordId": "869", "ru": "завтрак", "es": "desayuno"},
+        {"groupId": "8", "wordId": "870", "ru": "обед", "es": "almuerzo"},
+        {"groupId": "8", "wordId": "871", "ru": "ужин", "es": "cena"},
+        {"groupId": "8", "wordId": "872", "ru": "самолет", "es": "avión"},
+        {"groupId": "8", "wordId": "873", "ru": "автомобиль", "es": "coche"},
+        {"groupId": "8", "wordId": "874", "ru": "трамвай", "es": "tranvía"},
+        {"groupId": "8", "wordId": "875", "ru": "автобус", "es": "autobús"},
+        {"groupId": "8", "wordId": "876", "ru": "поезд", "es": "tren"},
+        {"groupId": "8", "wordId": "877", "ru": "велосипед", "es": "bicicleta"}
+      ]
+    },
+    {
+      "groupId": "9",
+      "groupName": "время, погода",
+      "groupNameTranslation": "tiempo",
+      "words": [
+        {"groupId": "9", "wordId": "91", "ru": "время, погода", "es": "tiempo"},
+        {"groupId": "9", "wordId": "92", "ru": "год", "es": "año"},
+        {"groupId": "9", "wordId": "93", "ru": "месяц", "es": "mes"},
+        {"groupId": "9", "wordId": "94", "ru": "неделя", "es": "semana"},
+        {"groupId": "9", "wordId": "95", "ru": "час", "es": "hora"},
+        {"groupId": "9", "wordId": "96", "ru": "минута", "es": "minuto"},
+        {"groupId": "9", "wordId": "97", "ru": "вчера", "es": "ayer"},
+        {"groupId": "9", "wordId": "98", "ru": "сегодня", "es": "hoy"},
+        {"groupId": "9", "wordId": "99", "ru": "завтра, утро", "es": "mañana"},
+        {
+          "groupId": "9",
+          "wordId": "910",
+          "ru": "праздник; вечеринка",
+          "es": "fiesta"
+        },
+        {"groupId": "9", "wordId": "911", "ru": "раз", "es": "vez"},
+        {"groupId": "9", "wordId": "912", "ru": "день", "es": "día"},
+        {"groupId": "9", "wordId": "913", "ru": "вечер", "es": "tarde"},
+        {"groupId": "9", "wordId": "914", "ru": "ночь", "es": "noche"},
+        {"groupId": "9", "wordId": "915", "ru": "дождь", "es": "lluvia"},
+        {"groupId": "9", "wordId": "916", "ru": "ветер", "es": "viento"},
+        {"groupId": "9", "wordId": "917", "ru": "снег", "es": "nieve"},
+        {"groupId": "9", "wordId": "918", "ru": "небо", "es": "cielo"}
+      ]
+    },
+    {
+      "groupId": "10",
+      "groupName": "дни недели",
+      "groupNameTranslation": "días de la semana",
+      "words": [
+        {
+          "groupId": "10",
+          "wordId": "101",
+          "ru": "дни недели",
+          "es": "días de la semana"
+        },
+        {"groupId": "10", "wordId": "102", "ru": "понедельник", "es": "lunes"},
+        {"groupId": "10", "wordId": "103", "ru": "вторник", "es": "martes"},
+        {"groupId": "10", "wordId": "104", "ru": "среда", "es": "miércoles"},
+        {"groupId": "10", "wordId": "105", "ru": "четверг", "es": "jueves"},
+        {"groupId": "10", "wordId": "106", "ru": "пятница", "es": "viernes"},
+        {"groupId": "10", "wordId": "107", "ru": "суббота", "es": "sábado"},
+        {"groupId": "10", "wordId": "108", "ru": "воскресенье", "es": "domingo"}
+      ]
+    },
+    {
+      "groupId": "11",
+      "groupName": "месяц",
+      "groupNameTranslation": "mes",
+      "words": [
+        {"groupId": "11", "wordId": "111", "ru": "месяц", "es": "mes"},
+        {"groupId": "11", "wordId": "112", "ru": "январь", "es": "enero"},
+        {"groupId": "11", "wordId": "113", "ru": "февраль", "es": "febrero"},
+        {"groupId": "11", "wordId": "114", "ru": "март", "es": "marzo"},
+        {"groupId": "11", "wordId": "115", "ru": "апрель", "es": "abril"},
+        {"groupId": "11", "wordId": "116", "ru": "май", "es": "mayo"},
+        {"groupId": "11", "wordId": "117", "ru": "июнь", "es": "junio"},
+        {"groupId": "11", "wordId": "118", "ru": "июль", "es": "julio"},
+        {"groupId": "11", "wordId": "119", "ru": "август", "es": "agosto"},
+        {
+          "groupId": "11",
+          "wordId": "1110",
+          "ru": "сентябрь",
+          "es": "septiembre"
+        },
+        {"groupId": "11", "wordId": "1111", "ru": "октябрь", "es": "octubre"},
+        {"groupId": "11", "wordId": "1112", "ru": "ноябрь", "es": "noviembre"},
+        {"groupId": "11", "wordId": "1113", "ru": "декабрь", "es": "diciembre"}
+      ]
+    },
+    {
+      "groupId": "12",
+      "groupName": "время года",
+      "groupNameTranslation": "temporada",
+      "words": [
+        {
+          "groupId": "12",
+          "wordId": "121",
+          "ru": "время года",
+          "es": "temporada"
+        },
+        {"groupId": "12", "wordId": "122", "ru": "весна", "es": "primavera"},
+        {"groupId": "12", "wordId": "123", "ru": "лето", "es": "verano"},
+        {"groupId": "12", "wordId": "124", "ru": "осень", "es": "otoño"},
+        {"groupId": "12", "wordId": "125", "ru": "зима", "es": "invierno"}
+      ]
+    },
+    {
+      "groupId": "13",
+      "groupName": "цвет",
+      "groupNameTranslation": "color",
+      "words": [
+        {"groupId": "13", "wordId": "131", "ru": "цвет", "es": "color"},
+        {"groupId": "13", "wordId": "132", "ru": "чёрный", "es": "negro"},
+        {
+          "groupId": "13",
+          "wordId": "133",
+          "ru": "голубой; синий",
+          "es": "azul"
+        },
+        {"groupId": "13", "wordId": "134", "ru": "коричневый", "es": "marrón"},
+        {"groupId": "13", "wordId": "135", "ru": "зелёный", "es": "verde"},
+        {"groupId": "13", "wordId": "136", "ru": "серый", "es": "gris"},
+        {"groupId": "13", "wordId": "137", "ru": "красный", "es": "rojo"},
+        {"groupId": "13", "wordId": "138", "ru": "белый", "es": "blanco"},
+        {"groupId": "13", "wordId": "139", "ru": "жёлтый", "es": "amarillo"}
+      ]
+    },
+    {
+      "groupId": "14",
+      "groupName": "личная информация",
+      "groupNameTranslation": "informacion personal",
+      "words": [
+        {
+          "groupId": "14",
+          "wordId": "141",
+          "ru": "личная информация",
+          "es": "informacion personal"
+        },
+        {
+          "groupId": "14",
+          "wordId": "142",
+          "ru": "имя, фамилия",
+          "es": "nombre"
+        },
+        {"groupId": "14", "wordId": "143", "ru": "адрес", "es": "dirección"},
+        {"groupId": "14", "wordId": "144", "ru": "номер", "es": "número"},
+        {
+          "groupId": "14",
+          "wordId": "145",
+          "ru": "день рождения",
+          "es": "cumpleaños"
+        },
+        {
+          "groupId": "14",
+          "wordId": "146",
+          "ru": "женатый / замужняя",
+          "es": "casado/a"
+        }
+      ]
+    },
+    {
+      "groupId": "15",
+      "groupName": "вопросительные слова",
+      "groupNameTranslation": "palabras de pregunta",
+      "words": [
+        {
+          "groupId": "15",
+          "wordId": "151",
+          "ru": "вопросительные слова",
+          "es": "palabras de pregunta"
+        },
+        {"groupId": "15", "wordId": "152", "ru": "что, какой", "es": "qué"},
+        {"groupId": "15", "wordId": "153", "ru": "какой", "es": "cual"},
+        {"groupId": "15", "wordId": "154", "ru": "кто", "es": "quién"},
+        {"groupId": "15", "wordId": "155", "ru": "где", "es": "dónde"},
+        {"groupId": "15", "wordId": "156", "ru": "куда", "es": "a dónde"},
+        {"groupId": "15", "wordId": "157", "ru": "откуда", "es": "de dónde"},
+        {"groupId": "15", "wordId": "158", "ru": "как", "es": "cómo"},
+        {"groupId": "15", "wordId": "159", "ru": "почему", "es": "por qué"},
+        {"groupId": "15", "wordId": "1510", "ru": "когда", "es": "cuándo"},
+        {"groupId": "15", "wordId": "1511", "ru": "сколько", "es": "Cuánto"}
+      ]
+    },
+    {
+      "groupId": "16",
+      "groupName": "вещь",
+      "groupNameTranslation": "cosa",
+      "words": [
+        {"groupId": "16", "wordId": "161", "ru": "вещь", "es": "cosa"},
+        {"groupId": "16", "wordId": "162", "ru": "ручка", "es": "pluma"},
+        {"groupId": "16", "wordId": "163", "ru": "книга", "es": "libro"},
+        {"groupId": "16", "wordId": "164", "ru": "шахматы", "es": "ajedrez"},
+        {"groupId": "16", "wordId": "165", "ru": "телефон", "es": "teléfono"},
+        {"groupId": "16", "wordId": "166", "ru": "часы", "es": "reloj"},
+        {"groupId": "16", "wordId": "167", "ru": "расчёска", "es": "peine"},
+        {
+          "groupId": "16",
+          "wordId": "168",
+          "ru": "телевизор",
+          "es": "televisor"
+        },
+        {"groupId": "16", "wordId": "169", "ru": "утюг", "es": "plancha"},
+        {"groupId": "16", "wordId": "1610", "ru": "мыло", "es": "jabón"},
+        {"groupId": "16", "wordId": "1611", "ru": "радио", "es": "radio"},
+        {"groupId": "16", "wordId": "1612", "ru": "сумка", "es": "bolsa"},
+        {
+          "groupId": "16",
+          "wordId": "1613",
+          "ru": "карта; открытка",
+          "es": "mapa"
+        },
+        {"groupId": "16", "wordId": "1614", "ru": "чемодан", "es": "maleta"},
+        {"groupId": "16", "wordId": "1615", "ru": "подарок", "es": "regalo"},
+        {
+          "groupId": "16",
+          "wordId": "1616",
+          "ru": "фотоаппарат; видеокамера",
+          "es": "cámara"
+        },
+        {
+          "groupId": "16",
+          "wordId": "1617",
+          "ru": "CD",
+          "es": "reproductor de CD"
+        },
+        {
+          "groupId": "16",
+          "wordId": "1618",
+          "ru": "компьютер",
+          "es": "ordenador"
+        },
+        {
+          "groupId": "16",
+          "wordId": "1619",
+          "ru": "фильм; плёнка",
+          "es": "película"
+        },
+        {"groupId": "16", "wordId": "1620", "ru": "цветок", "es": "flor"},
+        {"groupId": "16", "wordId": "1621", "ru": "ваза", "es": "florero"},
+        {"groupId": "16", "wordId": "1622", "ru": "картина", "es": "cuadro"},
+        {
+          "groupId": "16",
+          "wordId": "1623",
+          "ru": "носовой платок",
+          "es": "pañuelo"
+        },
+        {"groupId": "16", "wordId": "1624", "ru": "мяч", "es": "bola"},
+        {
+          "groupId": "16",
+          "wordId": "1625",
+          "ru": "воздушный шар(ик)",
+          "es": "globo"
+        },
+        {"groupId": "16", "wordId": "1626", "ru": "игрушка", "es": "juguete"},
+        {"groupId": "16", "wordId": "1627", "ru": "счёт", "es": "cuenta"},
+        {"groupId": "16", "wordId": "1628", "ru": "конверт", "es": "sobre"},
+        {"groupId": "16", "wordId": "1629", "ru": "бумага", "es": "papel"},
+        {"groupId": "16", "wordId": "1630", "ru": "газета", "es": "periódico"},
+        {"groupId": "16", "wordId": "1631", "ru": "письмо", "es": "carta"},
+        {"groupId": "16", "wordId": "1632", "ru": "билет", "es": "billete"}
+      ]
+    },
+    {
+      "groupId": "17",
+      "groupName": "одежда",
+      "groupNameTranslation": "ropa",
+      "words": [
+        {"groupId": "17", "wordId": "171", "ru": "одежда", "es": "ropa"},
+        {"groupId": "17", "wordId": "172", "ru": "обувь", "es": "zapatos"},
+        {"groupId": "17", "wordId": "173", "ru": "пальто", "es": "abrigo"},
+        {"groupId": "17", "wordId": "174", "ru": "платье", "es": "evestido"},
+        {"groupId": "17", "wordId": "175", "ru": "рубашка", "es": "camisa"},
+        {"groupId": "17", "wordId": "176", "ru": "юбка", "es": "falda"},
+        {"groupId": "17", "wordId": "177", "ru": "перчатка", "es": "guante"},
+        {"groupId": "17", "wordId": "178", "ru": "шляпа", "es": "sombrero"},
+        {
+          "groupId": "17",
+          "wordId": "179",
+          "ru": "пиджак, куртка",
+          "es": "chaqueta"
+        },
+        {"groupId": "17", "wordId": "1710", "ru": "шарф", "es": "bufanda"},
+        {"groupId": "17", "wordId": "1711", "ru": "носок", "es": "calcetín"},
+        {"groupId": "17", "wordId": "1712", "ru": "свитер", "es": "suéter"},
+        {"groupId": "17", "wordId": "1713", "ru": "футболка", "es": "camiseta"},
+        {"groupId": "17", "wordId": "1714", "ru": "галстук", "es": "corbata"},
+        {"groupId": "17", "wordId": "1715", "ru": "брюки", "es": "pantalones"}
+      ]
+    },
+    {
+      "groupId": "18",
+      "groupName": "местоимения",
+      "groupNameTranslation": "pronombres",
+      "words": [
+        {
+          "groupId": "18",
+          "wordId": "181",
+          "ru": "местоимения",
+          "es": "pronombres"
+        },
+        {"groupId": "18", "wordId": "182", "ru": "я", "es": "yo"},
+        {"groupId": "18", "wordId": "183", "ru": "ты", "es": "tú"},
+        {"groupId": "18", "wordId": "184", "ru": "он", "es": "él"},
+        {"groupId": "18", "wordId": "185", "ru": "она", "es": "ella"},
+        {
+          "groupId": "18",
+          "wordId": "186",
+          "ru": "Вы (ед.ч./мн.ч.)",
+          "es": "usted(es)"
+        },
+        {"groupId": "18", "wordId": "187", "ru": "мы", "es": "nosotros"},
+        {"groupId": "18", "wordId": "188", "ru": "вы", "es": "vosotros"},
+        {"groupId": "18", "wordId": "189", "ru": "они", "es": "ellos/as"},
+        {"groupId": "18", "wordId": "1810", "ru": "мой", "es": "mi"},
+        {"groupId": "18", "wordId": "1811", "ru": "твой", "es": "tu"},
+        {
+          "groupId": "18",
+          "wordId": "1812",
+          "ru": "его, ее, их, Ваш",
+          "es": "su"
+        },
+        {"groupId": "18", "wordId": "1813", "ru": "наш", "es": "nuestro"},
+        {"groupId": "18", "wordId": "1814", "ru": "ваш", "es": "vuestro"}
+      ]
+    },
+    {
+      "groupId": "19",
+      "groupName": "предлоги",
+      "groupNameTranslation": "preposiciones",
+      "words": [
+        {
+          "groupId": "19",
+          "wordId": "191",
+          "ru": "предлоги",
+          "es": "preposiciones"
+        },
+        {
+          "groupId": "19",
+          "wordId": "192",
+          "ru": "из; передает род. падеж",
+          "es": "de"
+        },
+        {"groupId": "19", "wordId": "193", "ru": "к", "es": "a"},
+        {"groupId": "19", "wordId": "194", "ru": "на", "es": "sobre"},
+        {"groupId": "19", "wordId": "195", "ru": "под", "es": "debajo de"},
+        {"groupId": "19", "wordId": "196", "ru": "позади", "es": "detrás de"},
+        {"groupId": "19", "wordId": "197", "ru": "с", "es": "con"},
+        {"groupId": "19", "wordId": "198", "ru": "без", "es": "sin"},
+        {
+          "groupId": "19",
+          "wordId": "199",
+          "ru": "до, прежде",
+          "es": "antes de"
+        },
+        {"groupId": "19", "wordId": "1910", "ru": "после", "es": "después de"},
+        {"groupId": "19", "wordId": "1911", "ru": "перед", "es": "delante de"},
+        {"groupId": "19", "wordId": "1912", "ru": "между", "es": "entre"},
+        {"groupId": "19", "wordId": "1913", "ru": "в", "es": "en"},
+        {"groupId": "19", "wordId": "1914", "ru": "возле", "es": "cerca de"},
+        {"groupId": "19", "wordId": "1915", "ru": "для", "es": "para"}
+      ]
+    },
+    {
+      "groupId": "20",
+      "groupName": "числительные",
+      "groupNameTranslation": "numerales",
+      "words": [
+        {
+          "groupId": "20",
+          "wordId": "201",
+          "ru": "числительные",
+          "es": "numerales"
+        },
+        {"groupId": "20", "wordId": "202", "ru": "один", "es": "uno"},
+        {"groupId": "20", "wordId": "203", "ru": "два", "es": "dos"},
+        {"groupId": "20", "wordId": "204", "ru": "три", "es": "tres"},
+        {"groupId": "20", "wordId": "205", "ru": "четыре", "es": "cuatro"},
+        {"groupId": "20", "wordId": "206", "ru": "пять", "es": "cinco"},
+        {"groupId": "20", "wordId": "207", "ru": "шесть", "es": "seis"},
+        {"groupId": "20", "wordId": "208", "ru": "семь", "es": "siete"},
+        {"groupId": "20", "wordId": "209", "ru": "восемь", "es": "ocho"},
+        {"groupId": "20", "wordId": "2010", "ru": "девять", "es": "nueve"},
+        {"groupId": "20", "wordId": "2011", "ru": "десять", "es": "diez"},
+        {"groupId": "20", "wordId": "2012", "ru": "одиннадцать", "es": "once"},
+        {"groupId": "20", "wordId": "2013", "ru": "двенадцать", "es": "doce"},
+        {"groupId": "20", "wordId": "2014", "ru": "тринадцать", "es": "trece"},
+        {
+          "groupId": "20",
+          "wordId": "2015",
+          "ru": "четырнадцать",
+          "es": "catorce"
+        },
+        {"groupId": "20", "wordId": "2016", "ru": "пятнадцать", "es": "quince"},
+        {
+          "groupId": "20",
+          "wordId": "2017",
+          "ru": "шестнадцать",
+          "es": "dieciséis"
+        },
+        {
+          "groupId": "20",
+          "wordId": "2018",
+          "ru": "семнадцать",
+          "es": "diecisiete"
+        },
+        {
+          "groupId": "20",
+          "wordId": "2019",
+          "ru": "восемнадцать",
+          "es": "dieciocho"
+        },
+        {
+          "groupId": "20",
+          "wordId": "2020",
+          "ru": "девятнадцать",
+          "es": "diecinueve"
+        },
+        {"groupId": "20", "wordId": "2021", "ru": "двадцать", "es": "veinte"},
+        {"groupId": "20", "wordId": "2022", "ru": "тридцать", "es": "treinta"},
+        {"groupId": "20", "wordId": "2023", "ru": "сорок", "es": "cuarenta"},
+        {
+          "groupId": "20",
+          "wordId": "2024",
+          "ru": "пятьдесят",
+          "es": "cincuenta"
+        },
+        {
+          "groupId": "20",
+          "wordId": "2025",
+          "ru": "шестьдесят",
+          "es": "sesenta"
+        },
+        {"groupId": "20", "wordId": "2026", "ru": "семьдесят", "es": "setenta"},
+        {
+          "groupId": "20",
+          "wordId": "2027",
+          "ru": "восемьдесят",
+          "es": "ochenta"
+        },
+        {"groupId": "20", "wordId": "2028", "ru": "девяносто", "es": "noventa"},
+        {"groupId": "20", "wordId": "2029", "ru": "сто", "es": "ciento"},
+        {"groupId": "20", "wordId": "2030", "ru": "тысяча", "es": "mil"}
+      ]
+    },
+    {
+      "groupId": "21",
+      "groupName": "наречия",
+      "groupNameTranslation": "adverbios",
+      "words": [
+        {"groupId": "21", "wordId": "211", "ru": "наречия", "es": "adverbios"},
+        {"groupId": "21", "wordId": "212", "ru": "старый", "es": "viejo"},
+        {"groupId": "21", "wordId": "213", "ru": "молодой", "es": "joven"},
+        {"groupId": "21", "wordId": "214", "ru": "новый", "es": "nuevo"},
+        {"groupId": "21", "wordId": "215", "ru": "большой", "es": "grande"},
+        {"groupId": "21", "wordId": "216", "ru": "маленький", "es": "pequeño"},
+        {
+          "groupId": "21",
+          "wordId": "217",
+          "ru": "голодный",
+          "es": "hambriento"
+        },
+        {"groupId": "21", "wordId": "218", "ru": "хороший", "es": "bueno"},
+        {"groupId": "21", "wordId": "219", "ru": "плохой", "es": "malo"},
+        {"groupId": "21", "wordId": "2110", "ru": "хорошо", "es": "bien"},
+        {"groupId": "21", "wordId": "2111", "ru": "плохо", "es": "mal"},
+        {"groupId": "21", "wordId": "2112", "ru": "ранний", "es": "temprano"},
+        {"groupId": "21", "wordId": "2113", "ru": "поздний", "es": "tarde"},
+        {
+          "groupId": "21",
+          "wordId": "2114",
+          "ru": "последний, прошлый",
+          "es": "pasado"
+        },
+        {"groupId": "21", "wordId": "2115", "ru": "следующий", "es": "próximo"},
+        {"groupId": "21", "wordId": "2116", "ru": "свободный", "es": "libre"},
+        {
+          "groupId": "21",
+          "wordId": "2117",
+          "ru": "тёплый, горячий",
+          "es": "caliente"
+        },
+        {"groupId": "21", "wordId": "2118", "ru": "холодный", "es": "frío"},
+        {"groupId": "21", "wordId": "2119", "ru": "высокий", "es": "alto"},
+        {"groupId": "21", "wordId": "2120", "ru": "низкий", "es": "bajo"},
+        {
+          "groupId": "21",
+          "wordId": "2121",
+          "ru": "длинный, долгий",
+          "es": "largo"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2122",
+          "ru": "лёгкий, несложный",
+          "es": "fácil"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2123",
+          "ru": "тяжёлый, трудный",
+          "es": "difícil"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2124",
+          "ru": "легкий (по весу)",
+          "es": "ligero"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2125",
+          "ru": "тяжелый (по весу)",
+          "es": "pesado"
+        },
+        {"groupId": "21", "wordId": "2126", "ru": "тёмный", "es": "oscuro"},
+        {"groupId": "21", "wordId": "2127", "ru": "светлый", "es": "claro"},
+        {"groupId": "21", "wordId": "2128", "ru": "дорогой", "es": "caro"},
+        {"groupId": "21", "wordId": "2129", "ru": "дешёвый", "es": "barato"},
+        {
+          "groupId": "21",
+          "wordId": "2130",
+          "ru": "cлева",
+          "es": "a la izquierda"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2131",
+          "ru": "справа",
+          "es": "a la derecha"
+        },
+        {
+          "groupId": "21",
+          "wordId": "2132",
+          "ru": "правильный",
+          "es": "correcto"
+        },
+        {"groupId": "21", "wordId": "2133", "ru": "быстрый", "es": "rápido"},
+        {
+          "groupId": "21",
+          "wordId": "2134",
+          "ru": "медленный",
+          "es": "despacio"
+        },
+        {"groupId": "21", "wordId": "2135", "ru": "мягкий", "es": "suave"},
+        {"groupId": "21", "wordId": "2136", "ru": "твёрдый", "es": "duro"},
+        {"groupId": "21", "wordId": "2137", "ru": "красивый", "es": "bonito"},
+        {
+          "groupId": "21",
+          "wordId": "2138",
+          "ru": "внимательный",
+          "es": "atento"
+        },
+        {"groupId": "21", "wordId": "2139", "ru": "печальный", "es": "triste"},
+        {"groupId": "21", "wordId": "2140", "ru": "радостный", "es": "alegre"},
+        {"groupId": "21", "wordId": "2141", "ru": "счастливый", "es": "feliz"},
+        {"groupId": "21", "wordId": "2142", "ru": "готовый", "es": "listo"},
+        {"groupId": "21", "wordId": "2143", "ru": "сердитый", "es": "enojado"},
+        {
+          "groupId": "21",
+          "wordId": "2144",
+          "ru": "основной, главный",
+          "es": "principal"
+        },
+        {"groupId": "21", "wordId": "2145", "ru": "да", "es": "sí"},
+        {"groupId": "21", "wordId": "2146", "ru": "нет; не", "es": "no"},
+        {"groupId": "21", "wordId": "2147", "ru": "этот", "es": "este"},
+        {"groupId": "21", "wordId": "2148", "ru": "тот", "es": "ese"},
+        {
+          "groupId": "21",
+          "wordId": "2149",
+          "ru": "тот (дальше чем ese)",
+          "es": "aquel"
+        },
+        {"groupId": "21", "wordId": "2150", "ru": "что (союз)", "es": "que"},
+        {"groupId": "21", "wordId": "2151", "ru": "здесь", "es": "aquí"},
+        {"groupId": "21", "wordId": "2152", "ru": "там", "es": "allí"},
+        {"groupId": "21", "wordId": "2153", "ru": "сюда", "es": "acá"},
+        {"groupId": "21", "wordId": "2154", "ru": "туда", "es": "allá"},
+        {
+          "groupId": "21",
+          "wordId": "2155",
+          "ru": "сейчас, теперь",
+          "es": "ahora"
+        },
+        {"groupId": "21", "wordId": "2156", "ru": "уже", "es": "ya"},
+        {"groupId": "21", "wordId": "2157", "ru": "еще", "es": "todavía"},
+        {"groupId": "21", "wordId": "2158", "ru": "много", "es": "mucho/a/s"},
+        {"groupId": "21", "wordId": "2159", "ru": "мало", "es": "poco/a/s"},
+        {"groupId": "21", "wordId": "2160", "ru": "очень", "es": "muy"},
+        {"groupId": "21", "wordId": "2161", "ru": "каждый", "es": "cada"},
+        {"groupId": "21", "wordId": "2162", "ru": "все", "es": "todos"},
+        {"groupId": "21", "wordId": "2163", "ru": "всё", "es": "todo"},
+        {"groupId": "21", "wordId": "2164", "ru": "так", "es": "tan"},
+        {"groupId": "21", "wordId": "2165", "ru": "и", "es": "y"},
+        {"groupId": "21", "wordId": "2166", "ru": "или", "es": "o"},
+        {"groupId": "21", "wordId": "2167", "ru": "но", "es": "pero"},
+        {
+          "groupId": "21",
+          "wordId": "2168",
+          "ru": "потому что, так как",
+          "es": "porque"
+        }
+      ]
+    },
+    {
+      "groupId": "22",
+      "groupName": "глагол",
+      "groupNameTranslation": "verbo",
+      "words": [
+        {"groupId": "22", "wordId": "221", "ru": "глагол", "es": "verbo"},
+        {"groupId": "22", "wordId": "222", "ru": "быть, являться", "es": "ser"},
+        {
+          "groupId": "22",
+          "wordId": "223",
+          "ru": "быть, находиться, стоять",
+          "es": "estar"
+        },
+        {"groupId": "22", "wordId": "224", "ru": "иметь", "es": "tener"},
+        {"groupId": "22", "wordId": "225", "ru": "мочь", "es": "poder"},
+        {"groupId": "22", "wordId": "226", "ru": "должен", "es": "deber"},
+        {"groupId": "22", "wordId": "227", "ru": "жить", "es": "vivir"},
+        {
+          "groupId": "22",
+          "wordId": "228",
+          "ru": "оставаться, останавливаться",
+          "es": "permanecer"
+        },
+        {
+          "groupId": "22",
+          "wordId": "229",
+          "ru": "приходить, приезжать",
+          "es": "venir"
+        },
+        {"groupId": "22", "wordId": "2210", "ru": "идти, ехать", "es": "ir"},
+        {"groupId": "22", "wordId": "2211", "ru": "видеть", "es": "ver"},
+        {"groupId": "22", "wordId": "2212", "ru": "сидеть", "es": "sentar"},
+        {"groupId": "22", "wordId": "2213", "ru": "сказать", "es": "decir"},
+        {
+          "groupId": "22",
+          "wordId": "2214",
+          "ru": "разговаривать",
+          "es": "hablar"
+        },
+        {"groupId": "22", "wordId": "2215", "ru": "работать", "es": "trabajar"},
+        {"groupId": "22", "wordId": "2216", "ru": "ломать", "es": "romper"},
+        {"groupId": "22", "wordId": "2217", "ru": "делать", "es": "hacer"},
+        {"groupId": "22", "wordId": "2218", "ru": "посылать", "es": "enviar"},
+        {"groupId": "22", "wordId": "2219", "ru": "покупать", "es": "comprar"},
+        {"groupId": "22", "wordId": "2220", "ru": "плавать", "es": "nadar"},
+        {"groupId": "22", "wordId": "2221", "ru": "спать", "es": "dormir"},
+        {"groupId": "22", "wordId": "2222", "ru": "будить", "es": "despertar"},
+        {
+          "groupId": "22",
+          "wordId": "2223",
+          "ru": "мыть, cтирать",
+          "es": "lavar"
+        },
+        {"groupId": "22", "wordId": "2224", "ru": "пробовать", "es": "probar"},
+        {
+          "groupId": "22",
+          "wordId": "2225",
+          "ru": "находить",
+          "es": "encontrar"
+        },
+        {
+          "groupId": "22",
+          "wordId": "2226",
+          "ru": "приносить, привозить",
+          "es": "traer"
+        },
+        {
+          "groupId": "22",
+          "wordId": "2227",
+          "ru": "праздновать",
+          "es": "celebrar"
+        },
+        {"groupId": "22", "wordId": "2228", "ru": "улыбаться", "es": "sonreír"},
+        {"groupId": "22", "wordId": "2229", "ru": "плакать", "es": "llorar"},
+        {"groupId": "22", "wordId": "2230", "ru": "стоить", "es": "costar"},
+        {"groupId": "22", "wordId": "2231", "ru": "учиться", "es": "aprender"},
+        {"groupId": "22", "wordId": "2232", "ru": "обучать", "es": "enseñar"},
+        {"groupId": "22", "wordId": "2233", "ru": "писать", "es": "escribir"},
+        {"groupId": "22", "wordId": "2234", "ru": "менять", "es": "cambiar"},
+        {"groupId": "22", "wordId": "2235", "ru": "падать", "es": "caer"},
+        {"groupId": "22", "wordId": "2236", "ru": "слушать", "es": "escuchar"},
+        {
+          "groupId": "22",
+          "wordId": "2237",
+          "ru": "показывать",
+          "es": "mostrar"
+        },
+        {"groupId": "22", "wordId": "2238", "ru": "побеждать", "es": "ganar"},
+        {"groupId": "22", "wordId": "2239", "ru": "думать", "es": "pensar"},
+        {"groupId": "22", "wordId": "2240", "ru": "закрывать", "es": "cerrar"},
+        {"groupId": "22", "wordId": "2241", "ru": "открывать", "es": "abrir"},
+        {"groupId": "22", "wordId": "2242", "ru": "знать", "es": "saber"},
+        {
+          "groupId": "22",
+          "wordId": "2243",
+          "ru": "быть знакомым",
+          "es": "conocer"
+        },
+        {"groupId": "22", "wordId": "2244", "ru": "петь", "es": "cantar"},
+        {"groupId": "22", "wordId": "2245", "ru": "танцевать", "es": "bailar"},
+        {
+          "groupId": "22",
+          "wordId": "2246",
+          "ru": "спрашивать",
+          "es": "preguntar"
+        },
+        {
+          "groupId": "22",
+          "wordId": "2247",
+          "ru": "отвечать",
+          "es": "contestar"
+        },
+        {"groupId": "22", "wordId": "2248", "ru": "собирать", "es": "recoger"},
+        {"groupId": "22", "wordId": "2249", "ru": "любить", "es": "amar"},
+        {"groupId": "22", "wordId": "2250", "ru": "рисовать", "es": "dibujar"},
+        {"groupId": "22", "wordId": "2251", "ru": "выбирать", "es": "elegir"},
+        {"groupId": "22", "wordId": "2252", "ru": "хотеть", "es": "querer"},
+        {"groupId": "22", "wordId": "2253", "ru": "кушать", "es": "comer"},
+        {"groupId": "22", "wordId": "2254", "ru": "пить", "es": "beber"},
+        {"groupId": "22", "wordId": "2255", "ru": "давать", "es": "dar"},
+        {"groupId": "22", "wordId": "2256", "ru": "печь", "es": "hornear"},
+        {
+          "groupId": "22",
+          "wordId": "2257",
+          "ru": "готовить (еду)",
+          "es": "cocinar"
+        },
+        {"groupId": "22", "wordId": "2258", "ru": "резать", "es": "cortar"},
+        {"groupId": "22", "wordId": "2259", "ru": "брать", "es": "tomar"},
+        {"groupId": "22", "wordId": "2260", "ru": "ждать", "es": "esperar"},
+        {"groupId": "22", "wordId": "2261", "ru": "читать", "es": "leer"},
+        {"groupId": "22", "wordId": "2262", "ru": "играть", "es": "jugar"}
+      ]
+    },
+    {
+      "groupId": "23",
+      "groupName": "вежливые слова",
+      "groupNameTranslation": "Palabras correctas",
+      "words": [
+        {
+          "groupId": "23",
+          "wordId": "231",
+          "ru": "вежливые слова",
+          "es": "Palabras correctas"
+        },
+        {"groupId": "23", "wordId": "232", "ru": "спасибо", "es": "gracias"},
+        {"groupId": "23", "wordId": "233", "ru": "извини(те)", "es": "perdón"},
+        {
+          "groupId": "23",
+          "wordId": "234",
+          "ru": "пожалуйста (прошу)",
+          "es": "por favor"
+        },
+        {
+          "groupId": "23",
+          "wordId": "235",
+          "ru": "пожалуйста, не за что",
+          "es": "de nada"
+        },
+        {"groupId": "23", "wordId": "236", "ru": "жаль", "es": "qué lástima"},
+        {
+          "groupId": "23",
+          "wordId": "237",
+          "ru": "до свидания",
+          "es": "hasta la vista"
+        }
+      ]
+    }
+  ]
+}
