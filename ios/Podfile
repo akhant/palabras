@@ -8,6 +8,10 @@ target 'palabras' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'palabrasTests' do
     inherit! :complete
     # Pods for testing

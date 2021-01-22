@@ -65,3 +65,5 @@ buck-out/
 *.lock
 
 /dist/
+
+/android/app/src/main/assets
