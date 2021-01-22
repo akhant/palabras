@@ -145,6 +145,12 @@ android {
         }
     }
     signingConfigs {
+        release {
+            storeFile file('palabras.keystore')
+            storePassword 'vfr4cde3'
+            keyAlias 'palabras'
+            keyPassword 'vfr4cde3'
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
@@ -159,7 +165,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -217,3 +223,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file('../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle'); applyNativeModulesAppBuildGradle(project)
+apply from: '../../node_modules/react-native-vector-icons/fonts.gradle'

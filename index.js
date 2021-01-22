@@ -1,8 +1,10 @@
+import 'react-native-gesture-handler';
 import {AppRegistry} from 'react-native';
 import App from './src/components/App';
-//import {name as appName} from './app.json';
+import {name as appName} from './app.json';
 
-AppRegistry.registerComponent('App', () => App);
-AppRegistry.runApplication('App', {
-  rootTag: document.getElementById('root'),
-});
+AppRegistry.registerComponent(appName, () => App);
+//for react-native-web
+// AppRegistry.runApplication(appName, {
+//   rootTag: document.getElementById('root'),
+// });
