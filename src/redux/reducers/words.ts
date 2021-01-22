@@ -1,7 +1,25 @@
+import {IWord} from './../../interfaces/index';
+import {GET_DATA, ADD_WORD} from './../const/index';
 import {AnyAction} from 'redux';
+import {IGroup} from '../../interfaces';
 
-export default (state = [], {type, payload}: AnyAction) => {
+export default (state: IGroup[] = [], {type, payload}: AnyAction) => {
   switch (type) {
+    case GET_DATA:
+      let words = payload.words;
+      if (words.length) {
+        payload.words;
+      }
+      return state;
+
+    case ADD_WORD:
+      return state.map((group) => {
+        if ((group.groupId = payload.word.groupId)) {
+          group.words?.push(payload.word);
+          return group;
+        }
+      });
+
     default:
       return state;
   }
