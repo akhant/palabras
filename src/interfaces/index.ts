@@ -18,4 +18,5 @@ export interface IWordsScreenProps {
   groupId?: string;
   pageWords?: IWord[];
   addWord: (arg: IWord) => void;
+  data: any;
 }

@@ -1,34 +1,43 @@
 import React, {useEffect, useState} from 'react';
-import {FlatList, StyleSheet, View, Text, StatusBar} from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
+import {FlatList, StyleSheet, View, Text, Pressable} from 'react-native';
 import {connect} from 'react-redux';
 import {RootState} from '../redux/reducers';
-import {IWord, IWordsScreenProps} from '../interfaces';
+import {IWordsScreenProps} from '../interfaces';
 import {getData, addWord} from '../redux/actions';
 import {FAB, Modal, TextInput, Button} from 'react-native-paper';
 
 const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
-  ({pageWords, words, addWord, getData, groupId}) => {
-    console.log('pageWords', pageWords);
+  ({pageWords, data, addWord, getData, groupId}) => {
     const [visible, setVisible] = React.useState(false);
     const [textRu, setTextRu] = React.useState('');
     const [textEs, setTextEs] = React.useState('');
     const [stateGroupId, setStateGroupId] = React.useState(groupId);
 
-    console.log('stateGroupId', stateGroupId);
+    console.log('render: stateGroupId ', stateGroupId, 'index ', data.index);
+    const handleLongPress = (args: any) => {
+      console.log(args);
+    };
+
+    console.log('counter', data.counter);
     const wordItem = ({item}: any) => {
       return (
-        <View key={item.wordId} style={styles.listItem}>
+        <Pressable
+          onLongPress={handleLongPress}
+          key={item.wordId}
+          style={styles.listItem}>
           <Text>{item.ru}</Text>
           <Text> - </Text>
           <Text>{item.es}</Text>
-        </View>
+        </Pressable>
       );
     };
 
     useEffect(() => {
-      getData(groupId);
-    }, []);
+      //console.log(groupId, index);
+      if (stateGroupId === data.index.toString()) {
+        getData(groupId);
+      }
+    }, [data.index]);
 
     const onPressShowModal = () => {
       setVisible(true);
@@ -45,6 +54,7 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
           //@ts-ignore
           wordId: stateGroupId + (pageWords.length + 1),
         });
+        setVisible(false);
       } else {
         return;
       }
@@ -93,6 +103,29 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
       </>
     );
   },
+  (prevProps, nextProps) => {
+    console.log('\n');
+    console.log('check props <<<<<<<<<<<');
+    console.log('groupId'.padStart(20, ' '), nextProps.groupId);
+    console.log('prev index'.padStart(20, ' '), prevProps.data.index);
+    console.log('next index'.padStart(20, ' '), nextProps.data.index);
+    console.log('>>>>>>>>>>');
+    console.log('\n');
+    if (
+      nextProps.groupId == nextProps.data.index ||
+      nextProps.groupId == prevProps.data.index
+    ) {
+      // console.log(
+      //   'skipped',
+      //   'groupId',
+      //   nextProps.groupId,
+      //   'index',
+      //   nextProps.data.index,
+      // );
+      return false;
+    }
+    return true;
+  },
 );
 
 const styles = StyleSheet.create({
@@ -114,7 +147,7 @@ const styles = StyleSheet.create({
 });
 
 export default connect(
-  ({words, pageWords}: RootState) => ({words, pageWords}),
+  ({words, pageWords, data}: RootState) => ({words, pageWords, data}),
   {
     getData,
     addWord,

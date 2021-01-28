@@ -1,4 +1,3 @@
-import {IWord} from './../../interfaces/index';
 import {GET_DATA, ADD_WORD} from './../const/index';
 import {AnyAction} from 'redux';
 import {IGroup} from '../../interfaces';
