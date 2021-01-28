@@ -1,4 +1,4 @@
-import {GET_DATA, ADD_WORD} from './../const/index';
+import {GET_DATA, ADD_WORD, REMOVE_WORD} from './../const/index';
 import {AnyAction} from 'redux';
 import {IGroup} from '../../interfaces';
 
@@ -18,6 +18,19 @@ export default (state: IGroup[] = [], {type, payload}: AnyAction) => {
           return group;
         }
       });
+
+    case REMOVE_WORD:
+      for (let group of state) {
+        if (group.groupId === payload.groupId) {
+          let newWords = group.words?.filter(
+            (word) => word.wordId != payload.wordId,
+          );
+          group.words = newWords;
+
+          break;
+        }
+      }
+      return state;
 
     default:
       return state;

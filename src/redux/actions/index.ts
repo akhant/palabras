@@ -1,4 +1,4 @@
-import {GET_DATA, ADD_WORD, CHANGE_INDEX, COUNT_RENDER} from './../const/index';
+import {GET_DATA, ADD_WORD, REMOVE_WORD} from './../const/index';
 import {Dispatch} from 'redux';
 import {IWord} from '../../interfaces';
 
@@ -15,4 +15,11 @@ export const getData = (groupId: number) => (
 export const addWord = (word: IWord) => (dispatch: Dispatch) => {
   console.log('addWord');
   dispatch({type: ADD_WORD, payload: {word}});
+};
+
+export const removeWord = (wordId: string, groupId: string) => (
+  dispatch: Dispatch,
+) => {
+  console.log('removeWord');
+  dispatch({type: REMOVE_WORD, payload: {wordId, groupId}});
 };

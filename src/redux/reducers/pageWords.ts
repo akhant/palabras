@@ -1,4 +1,4 @@
-import {GET_DATA, ADD_WORD} from './../const/index';
+import {GET_DATA, ADD_WORD, REMOVE_WORD} from './../const/index';
 import {AnyAction} from 'redux';
 import {IWord} from '../../interfaces';
 
@@ -18,6 +18,9 @@ export default (state: IWord[] = [], {type, payload}: AnyAction) => {
         return res;
       }
       return state;
+
+    case REMOVE_WORD:
+      return state.filter((word) => word.wordId !== payload.wordId);
 
     default:
       return state;

@@ -5,6 +5,7 @@ import {RootState} from '../redux/reducers';
 import {IWordsScreenProps} from '../interfaces';
 import {getData, addWord} from '../redux/actions';
 import {FAB, Modal, TextInput, Button} from 'react-native-paper';
+import WordItem from './WordItem';
 
 const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
   ({pageWords, data, addWord, getData, groupId}) => {
@@ -12,25 +13,6 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
     const [textRu, setTextRu] = React.useState('');
     const [textEs, setTextEs] = React.useState('');
     const [stateGroupId, setStateGroupId] = React.useState(groupId);
-
-    console.log('render: stateGroupId ', stateGroupId, 'index ', data.index);
-    const handleLongPress = (args: any) => {
-      console.log(args);
-    };
-
-    console.log('counter', data.counter);
-    const wordItem = ({item}: any) => {
-      return (
-        <Pressable
-          onLongPress={handleLongPress}
-          key={item.wordId}
-          style={styles.listItem}>
-          <Text>{item.ru}</Text>
-          <Text> - </Text>
-          <Text>{item.es}</Text>
-        </Pressable>
-      );
-    };
 
     useEffect(() => {
       //console.log(groupId, index);
@@ -61,6 +43,10 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
     };
     const hideModal = () => setVisible(false);
 
+    const renderItem = ({item}: any) => {
+      return <WordItem item={item} />;
+    };
+
     return (
       <>
         {pageWords && (
@@ -70,7 +56,7 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
               return item.wordId.toString();
             }}
             data={pageWords}
-            renderItem={wordItem}
+            renderItem={renderItem}
           />
         )}
         <Modal
@@ -104,24 +90,17 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
     );
   },
   (prevProps, nextProps) => {
-    console.log('\n');
-    console.log('check props <<<<<<<<<<<');
-    console.log('groupId'.padStart(20, ' '), nextProps.groupId);
-    console.log('prev index'.padStart(20, ' '), prevProps.data.index);
-    console.log('next index'.padStart(20, ' '), nextProps.data.index);
-    console.log('>>>>>>>>>>');
-    console.log('\n');
+    // console.log('\n');
+    // console.log('check props <<<<<<<<<<<');
+    // console.log('groupId'.padStart(20, ' '), nextProps.groupId);
+    // console.log('prev index'.padStart(20, ' '), prevProps.data.index);
+    // console.log('next index'.padStart(20, ' '), nextProps.data.index);
+    // console.log('>>>>>>>>>>');
+    // console.log('\n');
     if (
       nextProps.groupId == nextProps.data.index ||
       nextProps.groupId == prevProps.data.index
     ) {
-      // console.log(
-      //   'skipped',
-      //   'groupId',
-      //   nextProps.groupId,
-      //   'index',
-      //   nextProps.data.index,
-      // );
       return false;
     }
     return true;
