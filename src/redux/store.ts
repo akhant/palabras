@@ -8,11 +8,11 @@ import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 import hardSet from 'redux-persist/lib/stateReconciler/hardSet';
 
 export const initStore = () => {
-  AsyncStorage.clear();
+  // AsyncStorage.clear();
   const persistConfig = {
     key: 'root',
     storage: AsyncStorage,
-    stateReconciler: hardSet,
+    // stateReconciler: hardSet,
   };
 
   //@ts-ignore
