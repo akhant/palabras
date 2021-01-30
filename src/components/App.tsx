@@ -7,7 +7,7 @@ import {Provider as PaperProvider} from 'react-native-paper';
 import WordsScreen from './WordsScreen';
 import {initStore} from '../redux/store';
 import {IGroup} from '../interfaces';
-import {CHANGE_INDEX} from '../redux/const';
+import {CHANGE_INDEX, GET_DATA} from '../redux/const';
 
 const Drawer = createDrawerNavigator();
 
@@ -19,12 +19,17 @@ const App = () => {
       <PersistGate loading={null} persistor={persistor}>
         <PaperProvider>
           <NavigationContainer
-            onStateChange={(state) =>
+            onStateChange={(state) => {
+              console.log('state change');
               store.dispatch({
                 type: CHANGE_INDEX,
                 payload: {index: state.index},
-              })
-            }>
+              });
+              store.dispatch({
+                type: GET_DATA,
+                payload: {groupId: state.index, words: store.getState().words},
+              });
+            }}>
             <Drawer.Navigator>
               {store.getState().words?.map((item: IGroup) => {
                 return (

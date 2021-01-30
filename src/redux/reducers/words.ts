@@ -7,21 +7,23 @@ export default (state: IGroup[] = [], {type, payload}: AnyAction) => {
     case GET_DATA:
       let words = payload.words;
       if (words.length) {
-        payload.words;
+        return payload.words;
       }
       return state;
 
     case ADD_WORD:
-      return state.map((group) => {
-        if ((group.groupId = payload.word.groupId)) {
+      let res = state.map((group) => {
+        if (group.groupId == payload.word.groupId) {
           group.words?.push(payload.word);
-          return group;
         }
+        return group;
       });
+
+      return res;
 
     case REMOVE_WORD:
       for (let group of state) {
-        if (group.groupId === payload.groupId) {
+        if (group.groupId == payload.groupId) {
           let newWords = group.words?.filter(
             (word) => word.wordId != payload.wordId,
           );

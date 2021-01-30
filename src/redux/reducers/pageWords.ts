@@ -7,9 +7,10 @@ export default (state: IWord[] = [], {type, payload}: AnyAction) => {
     case GET_DATA:
       let res = [];
       const words = payload.words;
+
       if (words.length) {
         for (let i = 0; i < words.length; i++) {
-          if (words[i].groupId === payload.groupId) {
+          if (words[i].groupId == payload.groupId) {
             res = words[i].words;
             break;
           }
