@@ -9,7 +9,8 @@ import {generateNewWord} from '../utils';
 
 const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
   const [mode, setMode] = useState('RU');
-  const [word, setWord] = useState(generateNewWord(words));
+  const [category, setCategory] = useState('ALL');
+  const [word, setWord] = useState(generateNewWord(words, category));
 
   const [visibleWord, setVisibleWord] = useState(false);
 
@@ -17,12 +18,17 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
     setVisibleWord(!visibleWord);
   };
   const handleNextPress = () => {
-    setWord(generateNewWord(words));
+    setWord(generateNewWord(words, category));
     setVisibleWord(false);
   };
 
   const handleChangeMode = (value: any) => {
     setMode(value);
+  };
+
+  const handleChangeCatagory = (value: any) => {
+    setCategory(value);
+    setWord(generateNewWord(words, value));
   };
   const renderWords = () => {
     if (mode === 'RU') {
@@ -71,7 +77,23 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
 
   return (
     <View style={styles.card}>
-      <View style={styles.menuWrapper}>
+      <View style={styles.categroySelectWrapper}>
+        <Picker
+          style={{justifyContent: 'center', width: 150, height: 50}}
+          selectedValue={category}
+          mode="dialog"
+          onValueChange={handleChangeCatagory}>
+          <Picker.Item key={'-1'} label="все слова" value="ALL" />
+          {words?.map((group) => (
+            <Picker.Item
+              key={group.groupId}
+              label={group.groupName.toUpperCase()}
+              value={group.groupId}
+            />
+          ))}
+        </Picker>
+      </View>
+      <View style={styles.modeSelectWrapper}>
         <Picker
           style={{justifyContent: 'center', width: 60, height: 50}}
           selectedValue={mode}
@@ -113,10 +135,15 @@ const styles = StyleSheet.create({
   },
   menuButton: {},
   menu: {},
-  menuWrapper: {
+  modeSelectWrapper: {
     position: 'absolute',
     top: 0,
     right: 10,
+  },
+  categroySelectWrapper: {
+    position: 'absolute',
+    top: 0,
+    left: 10,
   },
 });
 

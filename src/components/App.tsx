@@ -59,14 +59,16 @@ const App = () => {
               AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state));
 
               // dont change for first screeen
-              if (state.index !== 0) {
+              if (state?.index !== 0) {
                 store.dispatch({
                   type: CHANGE_INDEX,
+                  //@ts-ignore
                   payload: {index: state?.index - 1},
                 });
                 store.dispatch({
                   type: GET_DATA,
                   payload: {
+                    //@ts-ignore
                     groupId: state?.index - 1,
                     words: store.getState().words,
                   },

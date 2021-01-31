@@ -1,27 +1,27 @@
 export interface IWord {
   ru: string;
   es: string;
-  wordId?: string;
+  wordId: string;
   groupId?: string;
 }
 
 export interface IGroup {
-  groupId?: string;
-  groupName?: string;
-  groupNameTranslation?: string;
+  groupId: string;
+  groupName: string;
+  groupNameTranslation: string;
   words?: IWord[];
 }
 
 export interface IWordsScreenProps {
-  words?: IGroup[];
+  words: IGroup[];
   getData?: any;
   groupId?: string;
   pageWords?: IWord[];
   addWord: (arg: IWord) => void;
-  data: any;
+  data?: any;
 }
 
 export interface ICheckScreenProps {
-  words?: IGroup[];
+  words: IGroup[];
   data: any;
 }
