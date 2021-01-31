@@ -7,19 +7,15 @@ export const getData = (groupId: number) => (
   getState: any,
 ) => {
   const state = getState();
-
-  console.log('getData', groupId);
   dispatch({type: GET_DATA, payload: {words: state.words, groupId}});
 };
 
 export const addWord = (word: IWord) => (dispatch: Dispatch) => {
-  console.log('addWord');
   dispatch({type: ADD_WORD, payload: {word}});
 };
 
 export const removeWord = (wordId: string, groupId: string) => (
   dispatch: Dispatch,
 ) => {
-  console.log('removeWord');
   dispatch({type: REMOVE_WORD, payload: {wordId, groupId}});
 };

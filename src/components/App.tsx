@@ -10,6 +10,7 @@ import {IGroup} from '../interfaces';
 import {Linking, Platform} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import {CHANGE_INDEX, GET_DATA, PERSISTENCE_KEY} from '../redux/const';
+import CheckScreen from './CheckScreen';
 
 const Drawer = createDrawerNavigator();
 
@@ -55,18 +56,25 @@ const App = () => {
           <NavigationContainer
             initialState={initialState}
             onStateChange={(state) => {
-              console.log('state change');
               AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state));
-              store.dispatch({
-                type: CHANGE_INDEX,
-                payload: {index: state.index},
-              });
-              store.dispatch({
-                type: GET_DATA,
-                payload: {groupId: state.index, words: store.getState().words},
-              });
+
+              // dont change for first screeen
+              if (state.index !== 0) {
+                store.dispatch({
+                  type: CHANGE_INDEX,
+                  payload: {index: state?.index - 1},
+                });
+                store.dispatch({
+                  type: GET_DATA,
+                  payload: {
+                    groupId: state?.index - 1,
+                    words: store.getState().words,
+                  },
+                });
+              }
             }}>
             <Drawer.Navigator>
+              <Drawer.Screen component={CheckScreen} name={'ПРОВЕРКА'} />
               {store.getState().words?.map((item: IGroup) => {
                 return (
                   <Drawer.Screen

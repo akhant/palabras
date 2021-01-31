@@ -20,3 +20,8 @@ export interface IWordsScreenProps {
   addWord: (arg: IWord) => void;
   data: any;
 }
+
+export interface ICheckScreenProps {
+  words?: IGroup[];
+  data: any;
+}
