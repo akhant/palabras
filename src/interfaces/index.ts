@@ -75,6 +75,6 @@ export interface IForm {
 
 export interface IVerb {
   word: IWord;
-  form: IForm;
+  form?: IForm;
   formData: boolean;
 }

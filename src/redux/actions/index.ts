@@ -1,3 +1,4 @@
+import {IVerb} from './../../interfaces/index';
 import {fetchAndParseVerb} from './../../utils/index';
 import {
   GET_DATA,
@@ -10,6 +11,7 @@ import {
 } from './../const/index';
 import {Dispatch} from 'redux';
 import {IWord} from '../../interfaces';
+import NetInfo from '@react-native-community/netinfo';
 
 export const getData = (groupId: number) => (
   dispatch: Dispatch,
@@ -25,9 +27,17 @@ export const addWord = (word: IWord) => async (
 ) => {
   const state = getState();
   if (word.groupId === VERBS_GROUP_INDEX) {
-    const verb = await fetchAndParseVerb(word);
-
-    dispatch({type: ADD_VERB, payload: {verb}});
+    let verb: IVerb;
+    const {isConnected} = await NetInfo.fetch();
+    if (isConnected) {
+      verb = await fetchAndParseVerb(word);
+      dispatch({type: ADD_VERB, payload: {verb}});
+    } else {
+      dispatch({
+        type: ADD_VERB,
+        payload: {verb: {word, form: {}, formData: false}},
+      });
+    }
   }
   dispatch({type: ADD_WORD, payload: {word}});
 
