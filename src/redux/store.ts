@@ -3,13 +3,14 @@ import {persistStore, persistReducer} from 'redux-persist';
 import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 import * as list from '../../groupedWordLists.json';
+import * as verbs from '../../verbs.json';
 import AsyncStorage from '@react-native-community/async-storage';
 // import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 // import hardSet from 'redux-persist/lib/stateReconciler/hardSet';
 
 export const initStore = () => {
   //TODO remove in production
-  AsyncStorage.clear();
+  //AsyncStorage.clear();
   const persistConfig = {
     key: 'root',
     storage: AsyncStorage,
@@ -25,6 +26,8 @@ export const initStore = () => {
       words: list.data,
       pageWords: list.data[0].words,
       data: {index: 0},
+      verbs: verbs.data,
+      verb: {},
     },
     applyMiddleware(thunk),
   );

@@ -1,15 +1,19 @@
 import React, {useState} from 'react';
 import {FlatList, StyleSheet, View, Text, Pressable} from 'react-native';
+import {Surface} from 'react-native-paper';
 import {connect} from 'react-redux';
 import {removeWord} from '../redux/actions';
+import {VERBS_GROUP_INDEX} from '../redux/const';
 
-const WordItem = ({item, removeWord}: any) => {
+const WordItem = ({item, showVerbModal}: any) => {
   const [wordId, setWordId] = useState(item.wordId);
   const [groupId, setWordGroupId] = useState(item.groupId);
   const [visible, setVisible] = useState(false);
 
   const handleLongPress = (args: any) => {
-    removeWord(wordId, groupId);
+    if (groupId === VERBS_GROUP_INDEX) {
+      showVerbModal(wordId);
+    }
   };
   const handlePress = (args: any) => {
     setVisible(!visible);

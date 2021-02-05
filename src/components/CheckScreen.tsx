@@ -1,7 +1,7 @@
 import {Picker} from '@react-native-picker/picker';
-import React, {useState, useReducer} from 'react';
+import React, {useState} from 'react';
 import {Pressable, View, Text, StyleSheet} from 'react-native';
-import {Button, Menu} from 'react-native-paper';
+import {Button} from 'react-native-paper';
 import {connect} from 'react-redux';
 import {ICheckScreenProps} from '../interfaces';
 import {RootState} from '../redux/reducers';
@@ -26,7 +26,7 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
     setMode(value);
   };
 
-  const handleChangeCatagory = (value: any) => {
+  const handleChangeCategory = (value: any) => {
     setCategory(value);
     setWord(generateNewWord(words, value));
   };
@@ -81,9 +81,9 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
         <Picker
           style={{justifyContent: 'center', width: 150, height: 50}}
           selectedValue={category}
-          mode="dialog"
-          onValueChange={handleChangeCatagory}>
-          <Picker.Item key={'-1'} label="все слова" value="ALL" />
+          mode="dropdown"
+          onValueChange={handleChangeCategory}>
+          <Picker.Item key={'-1'} label="ВСЕ СЛОВА" value="ALL" />
           {words?.map((group) => (
             <Picker.Item
               key={group.groupId}

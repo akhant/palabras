@@ -3,3 +3,7 @@ export const ADD_WORD = 'ADD_WORD';
 export const CHANGE_INDEX = 'CHANGE_INDEX';
 export const REMOVE_WORD = 'REMOVE_WORD';
 export const PERSISTENCE_KEY = 'PERSISTENCE_KEY';
+export const GET_VERB_DATA = 'GET_VERB_DATA';
+export const ADD_VERB = 'ADD_VERB';
+export const REMOVE_VERB = 'REMOVE_VERB';
+export const VERBS_GROUP_INDEX = '0';
