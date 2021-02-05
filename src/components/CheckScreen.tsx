@@ -29,6 +29,7 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words}) => {
   const handleChangeCategory = (value: any) => {
     setCategory(value);
     setWord(generateNewWord(words, value));
+    setVisibleWord(false);
   };
   const renderWords = () => {
     if (mode === 'RU') {
