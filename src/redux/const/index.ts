@@ -7,3 +7,4 @@ export const GET_VERB_DATA = 'GET_VERB_DATA';
 export const ADD_VERB = 'ADD_VERB';
 export const REMOVE_VERB = 'REMOVE_VERB';
 export const VERBS_GROUP_INDEX = '0';
+export const URL_VERB = 'https://espagram.ru/spriajenie-glagola-';

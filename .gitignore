@@ -67,3 +67,5 @@ buck-out/
 /dist/
 
 /android/app/src/main/assets
+
+/src/redux/const/
