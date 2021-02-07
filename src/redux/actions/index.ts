@@ -1,5 +1,5 @@
 import {IVerb} from './../../interfaces/index';
-import {fetchAndParseVerb} from './../../utils/index';
+import {fetchAndParseVerb} from '../../utils/index';
 import {
   GET_DATA,
   ADD_WORD,
