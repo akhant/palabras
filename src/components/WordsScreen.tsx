@@ -1,12 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import {
-  FlatList,
-  StyleSheet,
-  View,
-  Text,
-  Pressable,
-  Dimensions,
-} from 'react-native';
+import React, {useEffect} from 'react';
+import {StyleSheet, View, Text, Dimensions} from 'react-native';
 import {connect} from 'react-redux';
 import {RootState} from '../redux/reducers';
 import {IForm, IVerb, IWordsScreenProps} from '../interfaces';
@@ -201,18 +194,30 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
           icon="plus"
           onPress={onPressShowModal}
         />
+        {/* 
+//@ts-ignore */}
         <Modal
           visible={visibleVerb}
           onDismiss={hideModalVerb}
+          style={styles.modalVerbWrapper}
           contentContainerStyle={styles.modalVerb}>
           <ScrollView contentContainerStyle={styles.scrollView}>
             {renderVerbForms(verb)}
+            {/*             
+//@ts-ignore */}
+            <Button
+              color="#3A98FF"
+              onPress={hideModalVerb}
+              style={styles.modalVerbBtn}>
+              x
+            </Button>
           </ScrollView>
         </Modal>
       </>
     );
   },
   (prevProps, nextProps) => {
+    //filter updates on not important screens
     if (
       nextProps.groupId == nextProps.data.index ||
       nextProps.groupId == prevProps.data.index
@@ -229,6 +234,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 5,
   },
+  btnOpenDrawerMenu: {
+    position: 'absolute',
+    top: 6,
+    left: 10,
+    fontSize: 50,
+  },
+  btnOpenDrawerMenuContent: {
+    fontSize: 50,
+  },
   fab: {
     position: 'absolute',
     margin: 16,
@@ -236,13 +250,21 @@ const styles = StyleSheet.create({
     bottom: 0,
     backgroundColor: '#3A98FF',
   },
+
   modal: {
     backgroundColor: 'white',
     padding: 20,
   },
   modalVerb: {
     backgroundColor: 'white',
-    padding: 20,
+  },
+  modalVerbWrapper: {
+    marginTop: 0,
+  },
+  modalVerbBtn: {
+    position: 'absolute',
+    top: 5,
+    right: 0,
   },
   scrollView: {
     alignItems: 'center',

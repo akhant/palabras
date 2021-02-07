@@ -27,6 +27,7 @@ export interface IWordsScreenProps {
 export interface ICheckScreenProps {
   words: IGroup[];
   data: any;
+  navigation: any;
 }
 
 export interface IVerbForm {
