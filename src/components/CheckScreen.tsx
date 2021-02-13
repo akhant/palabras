@@ -85,9 +85,13 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words, navigation}) => {
   return (
     <>
       <View style={styles.card}>
-        <View style={styles.categroySelectWrapper}>
+        <View style={styles.categorySelectWrapper}>
           <Picker
-            style={{justifyContent: 'center', width: 150, height: 50}}
+            style={{
+              justifyContent: 'center',
+              width: 120,
+              height: 50,
+            }}
             selectedValue={category}
             mode="dropdown"
             onValueChange={handleChangeCategory}>
@@ -103,7 +107,12 @@ const CheckScreen: React.FC<ICheckScreenProps> = ({words, navigation}) => {
         </View>
         <View style={styles.modeSelectWrapper}>
           <Picker
-            style={{justifyContent: 'center', width: 60, height: 50}}
+            itemStyle={styles.pickerItemStyle}
+            style={{
+              justifyContent: 'center',
+              width: 60,
+              height: 50,
+            }}
             selectedValue={mode}
             mode="dropdown"
             onValueChange={handleChangeMode}>
@@ -150,6 +159,13 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 25,
+    fontFamily: 'Brygada',
+    color: '#111111',
+  },
+  pickerItemStyle: {
+    fontFamily: 'Zocial',
+    fontWeight: 'bold',
+    fontSize: 40,
   },
   menuButton: {},
   menu: {},
@@ -158,7 +174,7 @@ const styles = StyleSheet.create({
     top: 10,
     right: 10,
   },
-  categroySelectWrapper: {
+  categorySelectWrapper: {
     position: 'absolute',
     top: 10,
     left: Dimensions.get('window').width / 3,

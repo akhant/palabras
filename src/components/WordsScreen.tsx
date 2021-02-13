@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {StyleSheet, View, Text, Dimensions} from 'react-native';
 import {connect} from 'react-redux';
 import {RootState} from '../redux/reducers';
-import {IForm, IVerb, IWordsScreenProps} from '../interfaces';
+import {IVerb, IWordsScreenProps} from '../interfaces';
 import {getData, addWord, removeWord, getVerbData} from '../redux/actions';
 import {FAB, Modal, TextInput, Button, Title} from 'react-native-paper';
 import WordItem from './WordItem';
@@ -37,6 +37,7 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
     const onPressShowModal = () => {
       setVisibleAdd(true);
     };
+
     const hideModal = () => setVisibleAdd(false);
 
     const onPressAddWord = () => {
@@ -64,6 +65,7 @@ const WordsScreen: React.FC<IWordsScreenProps> = React.memo(
       getVerbData(wordId);
       setVisibleVerb(true);
     };
+
     const hideModalVerb = () => {
       setVisibleVerb(false);
     };
@@ -264,7 +266,8 @@ const styles = StyleSheet.create({
   modalVerbBtn: {
     position: 'absolute',
     top: 5,
-    right: 0,
+    right: 5,
+    borderRadius: 50,
   },
   scrollView: {
     alignItems: 'center',
@@ -278,6 +281,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 18,
+    fontFamily: 'Octicons',
   },
   title: {
     marginTop: 20,

@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     padding: 10,
-    borderBottomWidth: 1,
+    borderBottomWidth: 0.5,
     borderColor: '#aaa',
     margin: 2,
     borderRadius: 10,
@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 20,
+    fontFamily: 'Brygada',
   },
 });
 
